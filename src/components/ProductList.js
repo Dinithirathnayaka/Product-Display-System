@@ -6,7 +6,7 @@ function ProductList() {
 
   useEffect(() => {
     const imageTimer = setInterval(() => {
-      setCurrentImageIndex((prevIndex) => (prevIndex + 1) % 3); // Assuming there are 3 images per product
+      setCurrentImageIndex((prevIndex) => (prevIndex + 1) % 3);
     }, 5000);
 
     return () => {
@@ -21,27 +21,33 @@ function ProductList() {
   }
 
   return (
-    <div className="h-customh1 overflow-y-auto pt-10 pb-10 pl-5 pr-5">
-      {productsInRows.map((row, rowIndex) => (
-        <div key={rowIndex} className="flex flex-wrap h-customh2">
-          {row.map((product, index) => (
-            <div
-              key={index}
-              className="w-1/2 sm:w-1/3 md:w-1/4 lg:w-1/6 p-1 m-2 border border-sky-500 rounded-lg"
-            >
-              <img
-                src={product.images[currentImageIndex]}
-                alt={`Product Image ${currentImageIndex + 1}`}
-                className="w-40 ml-auto mr-auto h-customh3"
-              />
-              <hr />
-              <h3 className="text-sky-400 text-center">{product.name}</h3>
-              <p className="text-center">Price: {product.price}</p>
-              <p className="text-center">Quantity: {product.quantity}</p>
-            </div>
-          ))}
-        </div>
-      ))}
+    <div className=" h-customh4 bg-gradient-to-r from-blue-300 to-fuchsia-300 min-h-screen flex items-center">
+      <div className="h-customh1 w-customw1 overflow-y-auto scrollbar-none ">
+        {productsInRows.map((row, rowIndex) => (
+          <div key={rowIndex} className="flex flex-wrap h-customh2 ">
+            {row.map((product, index) => (
+              <div
+                key={index}
+                className="w-customw2 p-1 m-auto border border-blue-500 rounded-lg bg-white "
+              >
+                <img
+                  src={product.images[currentImageIndex]}
+                  alt={`Product Image ${currentImageIndex + 1}`}
+                  className="w-customw3 ml-auto mr-auto h-customh3 rounded-lg"
+                />
+                <hr className="bg-blue-500" />
+                <h3 className="text-blue-500 text-center font-semibold">
+                  {product.name}
+                </h3>
+                <p className="text-center text-sm">Rs: {product.price}</p>
+                <p className="text-center text-sm">
+                  Quantity: {product.quantity}
+                </p>
+              </div>
+            ))}
+          </div>
+        ))}
+      </div>
     </div>
   );
 }
