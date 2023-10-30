@@ -56,7 +56,7 @@ const Products = () => {
   }, [visibleProducts]);
 
   return (
-    <div className="bg-slate-100">
+    <div className="bg-slate-100 relative">
       <h3 className="text-center text-size1 font-semibold text-sky-800 py-5">
         Product Details
       </h3>
@@ -67,20 +67,11 @@ const Products = () => {
             <ProductsDetails product={product} />
           </div>
         ))}
-
-        <div className="flex justify-center">
-          {loading && (
-            <div className="text-center">
-              <ClipLoader
-                color="#71717a"
-                loading={loading}
-                size={35}
-                aria-label="Loading Spinner"
-                data-testid="loader"
-              />
-            </div>
-          )}
-        </div>
+        {loading && (
+          <div className="absolute inset-x-0 bottom- flex items-center justify-center mt-5">
+            <ClipLoader color="#71717a" size={35} />
+          </div>
+        )}
       </div>
     </div>
   );
