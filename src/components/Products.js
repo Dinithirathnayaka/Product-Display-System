@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react";
 import productsData from "../productList.json";
 import ProductsDetails from "./ProductsDetails";
-import Loading from "../assets/load.gif";
+import ClipLoader from "react-spinners/ClipLoader";
 
 const Products = () => {
   const [visibleProducts, setVisibleProducts] = useState([]);
@@ -56,20 +56,32 @@ const Products = () => {
   }, [visibleProducts]);
 
   return (
-    <div className="bg-slate-100 pt-1  pl-10 pr-10">
-      <h3 className="text-center text-size1 font-semibold text-sky-800 mb-3 mt-3">
+    <div className="bg-slate-100">
+      <h3 className="text-center text-size1 font-semibold text-sky-800 py-5">
         Product Details
       </h3>
-      <hr className="text-sky-800 mb-3" />
 
-      <div className="flex flex-wrap m-3 justify-between pl-10 pr-10">
+      <div className=" pt-1 pl-10 pr-10 mx-auto grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 lg:justify-between">
         {visibleProducts.map((product, index) => (
-          <div key={index} className="m-customm1 p-customp1">
+          <div key={index} className="">
             <ProductsDetails product={product} />
           </div>
         ))}
+
+        <div className="flex justify-center">
+          {loading && (
+            <div className="text-center">
+              <ClipLoader
+                color="#71717a"
+                loading={loading}
+                size={35}
+                aria-label="Loading Spinner"
+                data-testid="loader"
+              />
+            </div>
+          )}
+        </div>
       </div>
-      {loading && <div className="loader">Loading...</div>}
     </div>
   );
 };

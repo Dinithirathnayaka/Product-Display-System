@@ -43,7 +43,7 @@
     {
       "name": "Product 5",
       "price": 10.99,
-      "quantity": 50,
+      "quantity": 98,
       "images": [
         "https://demo-60.woovinapro.com/wp-content/uploads/2021/01/product-8-300x313.jpg",
         "https://demo-60.woovinapro.com/wp-content/uploads/2021/01/product-6-300x313.jpg",
@@ -63,7 +63,7 @@
     {
       "name": "Product 7",
       "price": 10.99,
-      "quantity": 50,
+      "quantity": 52,
       "images": [
         "https://demo-60.woovinapro.com/wp-content/uploads/2021/01/product-10-300x313.jpg",
         "https://demo-60.woovinapro.com/wp-content/uploads/2021/01/product-6-300x313.jpg",
@@ -72,8 +72,8 @@
     },
     {
       "name": "Product 8",
-      "price": 10.99,
-      "quantity": 50,
+      "price": 109.29,
+      "quantity": 89,
       "images": [
         "https://demo-60.woovinapro.com/wp-content/uploads/2021/01/product-8-300x313.jpg",
         "https://demo-60.woovinapro.com/wp-content/uploads/2021/01/product-42.jpg",
@@ -82,8 +82,8 @@
     },
     {
       "name": "Product 9",
-      "price": 10.99,
-      "quantity": 50,
+      "price": 45.0,
+      "quantity": 20,
       "images": [
         "https://demo-60.woovinapro.com/wp-content/uploads/2021/01/product-19-300x313.jpg",
         "https://demo-60.woovinapro.com/wp-content/uploads/2021/01/product-4-300x313.jpg",
@@ -93,7 +93,7 @@
     {
       "name": "Product 10",
       "price": 10.99,
-      "quantity": 50,
+      "quantity": 30,
       "images": [
         "https://demo-60.woovinapro.com/wp-content/uploads/2021/01/product-4-300x313.jpg",
         "https://demo-60.woovinapro.com/wp-content/uploads/2021/01/product-17-300x313.jpg",
@@ -102,8 +102,8 @@
     },
     {
       "name": "Product 11",
-      "price": 10.99,
-      "quantity": 50,
+      "price": 32.09,
+      "quantity": 70,
       "images": [
         "https://demo-60.woovinapro.com/wp-content/uploads/2021/01/product-4-300x313.jpg",
         "https://demo-60.woovinapro.com/wp-content/uploads/2021/01/product-14-300x313.jpg",
@@ -112,8 +112,8 @@
     },
     {
       "name": "Product 12",
-      "price": 10.99,
-      "quantity": 50,
+      "price": 185.99,
+      "quantity": 90,
       "images": [
         "https://demo-60.woovinapro.com/wp-content/uploads/2021/01/product-6-300x313.jpg",
         "https://demo-60.woovinapro.com/wp-content/uploads/2021/01/product-4-300x313.jpg",
@@ -122,8 +122,8 @@
     },
     {
       "name": "Product 13",
-      "price": 10.99,
-      "quantity": 50,
+      "price": 1045.0,
+      "quantity": 150,
       "images": [
         "https://demo-60.woovinapro.com/wp-content/uploads/2021/01/product-10-300x313.jpg",
         "https://demo-60.woovinapro.com/wp-content/uploads/2021/01/product-1-300x313.jpg",
@@ -132,8 +132,8 @@
     },
     {
       "name": "Product 14",
-      "price": 10.99,
-      "quantity": 50,
+      "price": 123.99,
+      "quantity": 100,
       "images": [
         "https://demo-60.woovinapro.com/wp-content/uploads/2020/10/product-34.jpg",
         "https://demo-60.woovinapro.com/wp-content/uploads/2021/01/product-22-300x313.jpg",
@@ -142,8 +142,8 @@
     },
     {
       "name": "Product 1",
-      "price": 10.99,
-      "quantity": 50,
+      "price": 110.99,
+      "quantity": 10,
       "images": [
         "https://demo-60.woovinapro.com/wp-content/uploads/2021/01/product-1-300x313.jpg",
         "https://demo-60.woovinapro.com/wp-content/uploads/2021/01/product-10-300x313.jpg",

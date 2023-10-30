@@ -15,11 +15,11 @@ function ProductsDetails(props) {
   }, [currentImageIndex]);
 
   return (
-    <div className="bg-white pt-2 pb-2 w-customw2 rounded-lg">
+    <div className="bg-white pt-2 pb-2 w-full rounded-lg  mx-auto mb-5 md:w-80">
       <img
         src={images[currentImageIndex]}
         alt={name}
-        className="rounded-lg ml-auto mr-auto w-customw1 h-customh1 transform origin-center hover:scale-95 transition-transform duration-400 "
+        className="rounded-lg ml-auto mr-auto  h-customh1 transform origin-center hover:scale-95 transition-transform duration-400 "
       />
       <h2 className="text-center font-bold m-2">{name}</h2>
       <p className="text-center text-base text-red-600">${price}</p>
