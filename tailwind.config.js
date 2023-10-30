@@ -13,6 +13,11 @@ module.exports = {
         customw1: "60vw",
         customw2: "180px",
         customw3: "170px",
+        customw4: "185px",
+      },
+      zIndex: {
+        negative: "-1",
+        customz1: "999",
       },
     },
   },
