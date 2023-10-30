@@ -69,7 +69,7 @@ const Products = () => {
         ))}
         {loading && (
           <div className="absolute inset-x-0 bottom-0 flex items-center justify-center mt-5">
-            <ClipLoader color="#71717a" size={35} />
+            <ClipLoader color="#71717a" size={35} className="mb-[-3rem]" />
           </div>
         )}
       </div>
