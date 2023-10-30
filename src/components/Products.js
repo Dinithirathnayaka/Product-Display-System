@@ -59,7 +59,7 @@ const Products = () => {
     <div className="bg-slate-100 relative">
       <hr />
 
-      <h3 className="  rounded-lg text-center text-size1 font-semibold text-blue-800 bg-gradient-to-r from-cyan-200 to-blue-300 py-5 mx-10 mb-5 mt-5 border border-cyan-400">
+      <h3 className="  rounded-lg text-center text-size1 font-semibold text-blue-800 bg-gradient-to-r from-cyan-200 to-blue-300 py-3 mx-10 mb-5 mt-5 border border-cyan-400">
         Product Details
       </h3>
 
