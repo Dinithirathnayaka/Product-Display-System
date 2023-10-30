@@ -4,20 +4,25 @@ module.exports = {
   theme: {
     extend: {
       height: {
-        customh1: "55vh",
-        customh2: "200px",
-        customh3: "100px",
-        customh4: "100vh",
+        customh1: "300px",
       },
       width: {
-        customw1: "60vw",
-        customw2: "180px",
-        customw3: "170px",
-        customw4: "185px",
+        customw1: "280px",
+        customw2: "290px",
       },
       zIndex: {
         negative: "-1",
         customz1: "999",
+      },
+
+      fontSize: {
+        size1: "30px",
+      },
+      margin: {
+        customm1: "5px",
+      },
+      padding: {
+        customp1: "5px",
       },
     },
   },
